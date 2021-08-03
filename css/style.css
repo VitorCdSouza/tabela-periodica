@@ -8,11 +8,11 @@ body{
 }
 #main{
     width: 1486px;
-    height: 1020px;
+    height: 935px;
 }
 h1{
     text-align: center;
-    margin: 0px 0px 100px;
+    margin: 0px 0px 40px;
     color: rgb(0, 0, 0);
     font-size: 55px;
 }
@@ -122,7 +122,7 @@ footer{
     height: 10px;
     background: rgb(155, 223, 54);
     border: 1px solid black;
-    margin: 6.5px 7px 0px;
+    margin: 7px 7px 0px;
     float: left;
 }
 #corAlcalinos{
