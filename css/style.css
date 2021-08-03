@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+}
+body{
+    background: rgb(180, 178, 178);
+}
+#main{
+    width: 1486px;
+    height: 1020px;
+}
+h1{
+    text-align: center;
+    margin: 0px 0px 100px;
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+}
+
+.naoMetal, .gasesNobres, .metalAlca, .metalAlcaTerr, .semiMetal, .halogenio, .outrosMetais, .metalTransicao, .lantanideos, .lantanideosDireciona, .actinidiosDireciona, .actinidios{
+    width: 70px;
+    height: 70px;
+    margin: 0px 0px 10px 10px;
+    border-radius: 5px;
+    float: left;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.numElement{
+    margin: 5px 0px 0px 5px;
+    font-size: 9px;
+}
+.simboloElement{
+    text-align: center;
+    font-size: 16px;
+    margin: -10px 0px 0px 0px;
+    font-weight: bold;
+}
+.nome{
+    font-size: 10px;
+    text-align: center;
+}
+.massaAtomica{
+    font-size: 10px;
+    text-align: center;
+}
+.direciona{
+    position: relative;
+    top: 35%;
+    text-align: center;
+}
+#espaco1{
+    width: 1312px;
+    height: 70px;
+    float: left;
+}
+.espaco2{
+    width: 820px;
+    height: 70px;
+    float: left;
+}
+#espaco3{
+    width: 246px;
+    height: 152px;
+    float: left;
+}
+.naoMetal{
+    background: rgb(155, 223, 54);
+}
+
+.gasesNobres{
+    background: rgb(57, 120, 255);
+}
+.metalAlca{
+    background: rgb(245, 177, 52);
+}
+.metalAlcaTerr{
+    background: rgb(245, 232, 52);
+}
+.semiMetal{
+    background: rgb(46, 103, 129);
+}
+.halogenio{
+    background: rgb(131, 185, 230);
+}
+.outrosMetais{
+    background: rgb(120, 147, 170);
+}
+.metalTransicao{
+    background: rgb(231, 108, 108);
+}
+.lantanideosDireciona{
+    background: rgb(48, 212, 204);
+}
+.lantanideos{
+    background: rgb(48, 212, 204);
+}
+.actinidiosDireciona{
+    background: rgb(165, 97, 197);
+}
+.actinidios{
+    background: rgb(165, 97, 197);
+}
+
+.naoMetal:hover, .gasesNobres:hover, .metalAlca:hover, .metalAlcaTerr:hover, .semiMetal:hover, .halogenio:hover, .outrosMetais:hover, .metalTransicao:hover, .lantanideos:hover, .actinidios:hover{
+    transform: scale(1.5);
+    cursor: default;
+    transition: all 0.05s ease-in-out;
+}
+footer{
+    clear: both;
+}
+.indices{
+    width: 250px;
+    height: 25px;
+    float: left;
+    margin-left: 2.62%;
+    margin-top: 10px;
+}
+#corNaoMetais, #corAlcalinos, #corSemimetais, #corOutros, #corLanta, #corGases, #corAlcalinoTerra, #corHalo, #corTransicao, #corActin{
+    width: 10px;
+    height: 10px;
+    background: rgb(155, 223, 54);
+    border: 1px solid black;
+    margin: 6.5px 7px 0px;
+    float: left;
+}
+#corAlcalinos{
+    background: rgb(245, 177, 52);
+}
+#corSemimetais{
+    background: rgb(46, 103, 129);
+}
+#corOutros{
+    background: rgb(120, 147, 170);
+}
+#corLanta{
+    background: rgb(48, 212, 204);
+}
+#corGases{
+    background: rgb(57, 120, 255);
+}
+#corAlcalinoTerra{
+    background: rgb(245, 232, 52);
+}
+#corHalo{
+    background: rgb(131, 185, 230);
+}
+#corTransicao{
+    background: rgb(231, 108, 108);
+}
+#corActin{
+    background: rgb(165, 97, 197);
+}
